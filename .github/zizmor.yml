@@ -1,0 +1,5 @@
+# Dependabot waits three days after an upstream release, not zizmor's default of seven.
+rules:
+  dependabot-cooldown:
+    config:
+      days: 3
