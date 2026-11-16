@@ -1,11 +1,11 @@
-# Pull requests run the short check; dev runs the full check.
+# Pull requests run the short check; main runs the full check.
 name: ci
 
 on:
   pull_request:
     types: [opened, synchronize, reopened, labeled]
   push:
-    branches: [dev]
+    branches: [main]
   workflow_dispatch:
 
 permissions: {}
