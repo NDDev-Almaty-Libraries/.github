@@ -1,4 +1,5 @@
-# Pull requests run the short check; dev runs the full check.
+# Pull requests run the short check and a push to dev the full check; promotion then moves main to
+# the checked dev commit.
 name: ci
 
 on:
@@ -12,7 +13,7 @@ permissions: {}
 
 jobs:
   check:
-    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/check.yml@cafb9917b974ed4ef3af483b3417cbe82b776a99 # v0.6.42
+    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/check.yml@6cf64d17c08dfc75392c55784b872fe9a6056553 # v0.6.57
     permissions:
       contents: read
     with:
