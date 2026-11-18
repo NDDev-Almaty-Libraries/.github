@@ -12,6 +12,5 @@ jobs:
     uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/security.yml@d70fed9613e0861124f6990fb2f4513d24741f26 # v0.6.76
     permissions:
       contents: read
-      issues: write
     with:
       hosted-runner: ubuntu-26.04
