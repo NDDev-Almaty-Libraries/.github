@@ -13,7 +13,7 @@ permissions: {}
 
 jobs:
   promote:
-    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/promote.yml@da7d6fd99e4fe8ed90e59a970043bde90486190d # v0.6.103
+    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/promote.yml@9f098eadedf0fa46504831f4e67b502560a74d16 # v0.6.134
     secrets: inherit # zizmor: ignore[secrets-inherit]
     permissions:
       actions: write
